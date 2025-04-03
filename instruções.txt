@@ -1,0 +1,44 @@
+
+
+Configuração
+Edite as variáveis no início do código:
+
+EMAIL: Seu endereço de e-mail Gmail.
+
+SENHA: Senha do e-mail ou senha de aplicativo.
+
+TOKEN_BOT: Token fornecido pelo BotFather.
+
+CHAT_ID: ID do chat do Telegram (pode ser ajustado conforme necessário).
+
+Instale as dependências no seu terminal:
+pip install python-telegram-bot
+
+----
+
+Como Usar
+Inicie o Bot: Execute o script com python botqueenviacodigo.py ou use o arquivo .bat
+
+----
+
+Hospedando o Bot no Seu PC (Windows)
+Para facilitar a execução no Windows, use o arquivo executar_bot.bat:
+Certifique-se de que o Python está instalado (recomendado: versão 3.10).
+
+Coloque o arquivo executar_bot.bat no mesmo diretório que botqueenviacodigo.py.
+
+Dê um duplo clique em executar_bot.bat para iniciar o bot.
+
+Se o Python não estiver no PATH, edite o .bat e ajuste o caminho para o executável do Python (ex.: C:\Python39\python.exe).
+
+Exemplo de edição no .bat:
+--------
+@echo off
+cd /d "C:\caminho\para\seu\bot"
+C:\Python39\python.exe botqueenviacodigo.py
+pause
+---------
+O bot continuará rodando até que você feche a janela ou pressione Ctrl+C.
+
+
+
