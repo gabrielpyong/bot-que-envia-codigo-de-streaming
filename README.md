@@ -20,7 +20,7 @@ https://prnt.sc/yqoBd3BqRBk1
 #Instale as dependências:
 pip install python-telegram-bot
 
-##Como Usar
+##Como Usar##
 Inicie o Bot: Execute o script com python botqueenviacodigo.py ou use o arquivo .bat (veja abaixo).
 
 No Telegram, envie o comando /codigo ao bot.
