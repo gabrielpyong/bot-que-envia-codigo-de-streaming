@@ -11,6 +11,7 @@ Este é um bot para Telegram que busca códigos de verificação de serviços de
 ## Configuração
 
 Edite as variáveis no início do código para configurar corretamente seu bot.
+https://prnt.sc/yqoBd3BqRBk1
 
 ## Instalação
 
