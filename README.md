@@ -1,16 +1,17 @@
-#Bot que envia código de verificação de contas de streaming do seu email para grupo no telegram
+##Bot que envia código de verificação de contas de streaming do seu email para grupo no telegram
 
 Este é um bot para Telegram que busca códigos de verificação de serviços de streaming (Disney+ e Amazon Prime) diretamente do seu e-mail e os envia para um grupo ou chat específico. Ele utiliza Python com as bibliotecas imaplib, email, re e telegram.ext.
 
 
-#Pré-requisitos
+##Pré-requisitos
+
 Configuração do E-mail: Use um e-mail Gmail com uma senha de aplicativo (necessária para autenticação IMAP).
 
 Token do Bot: Crie um bot no Telegram via BotFather e obtenha o TOKEN_BOT.
 
 Chat ID: Identifique o CHAT_ID do grupo ou chat onde o bot enviará os códigos.
 
-Configuração
+##Configuração
 Edite as variáveis no início do código:
 https://prnt.sc/yqoBd3BqRBk1
 
@@ -37,16 +38,17 @@ Se o Python não estiver no PATH, edite o .bat e ajuste o caminho para o execut�
 Exemplo de edição no .bat:
 bat
 ---
-@echo off
+"@echo off
 cd /d "C:\caminho\para\seu\bot"
 C:\Python39\python.exe botqueenviacodigo.py
-pause
+pause"
 ---
 
 O bot continuará rodando até que você feche a janela
 
 
-Funcionamento
+##Funcionamento
+
 O bot acessa a caixa de entrada do Gmail via IMAP.
 
 Procura e-mails específicos dos remetentes configurados (disneyplus@trx.mail2.disneyplus.com para Disney+ e account-update@amazon.com para Prime).
