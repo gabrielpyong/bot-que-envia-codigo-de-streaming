@@ -1,4 +1,4 @@
-# Bot que envia código de verificação de contas de streaming do seu email para grupo no Telegram
+# Bot que envia código de verificação recebidas no email para grupo no Telegram
 
 Este é um bot para Telegram que busca códigos de verificação de serviços de streaming (Disney+ e Amazon Prime) diretamente do seu e-mail e os envia para um grupo ou chat específico. Ele utiliza Python com as bibliotecas `imaplib`, `email`, `re` e `telegram.ext`.
 
